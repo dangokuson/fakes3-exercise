@@ -12,6 +12,9 @@ GEM
       aws-sdk-core (= 2.0.31)
     builder (3.2.2)
     diff-lcs (1.2.5)
+    fakes3 (0.2.1)
+      builder
+      thor
     glint (0.0.2)
     jmespath (1.0.2)
       multi_json (~> 1.0)
@@ -30,11 +33,13 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.2.0)
     rspec-support (3.2.2)
+    thor (0.19.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   aws-sdk (~> 2)
+  fakes3
   glint
   rspec
